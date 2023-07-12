@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(202, 244, 252);
+}
+.container{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    background-color: rgb(123, 128, 133);
+    padding: 4em;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 1.2em rgba(105, 71, 138, 0.4);
+    width: 30%;
+    min-width: fit-content;
+    position: fixed;
+}
+#main-heading{
+    color: rgb(57, 8, 233);
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1em;
+    text-align: center;
+    border: 1px solid blue;
+    padding: 0.5em;
+}
+.list-items{
+    color: black;
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid rgb(104, 194, 179);
+    list-style-type: none;
+    background-color: aqua;
+}
+
+/* STYLES FOR INDEX3.HTML */
+#main-heading3{
+    text-align: center;
+    color: darkolivegreen;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 10%;
+    padding: 1em;
+    min-width: fit-content;
+    border: 2px solid black; 
+    margin-top: 1em;   
+    border-radius: 1em;
+
+}
+.boxes{
+    border: 2px solid black;
+    margin: 2em;
+    padding: 1em;
+    min-width: fit-content;
+    text-align: center;
+    background-color: beige;
+    border-radius: 1em;
+}
+#heading{
+    font-weight: 600;
+    color: rgb(210, 105, 30);
+}
+.bt{
+    margin-top: 1em;
+    background-color: rgb(10, 14, 216);
+    padding: 0.2em;
+}
+
+/* STYLES FOR INDEX4.HTML */
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    margin-right: 20%;
+}
+#main-heading4{
+    text-align: center;
+    margin: 1em;
+    font-weight: 600;
+    color: rgb(10, 14, 216);
+    /* border: 2px solid black; */
+}
+.boxess{
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(196, 191, 228);
+    border-radius: 1em;
+}
+.hidden-content{
+    display: none; 
+}
+.hidden-content.reveal-btn{
+    display: block;
+}
+
+/* STYLES FOR INDEX5.HTML */
+.body-content{
+    border: 5px solid black;
+    padding: 1em;
+    margin: 2em;
+    width: 90%;
+    height: 400px;
+    min-width: fit-content;
+    position: absolute;
+    right: 0.1%;
+    border-radius: 0.6em;
+}
+.div2{
+    border: 2px solid black;
+    padding: 0.5em;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    min-width: fit-content;
+    min-height: fit-content;
+    border-radius: 0.6em;
+    position: relative;
+    left: 25%;
+}
+.div1{
+    border: 2px solid black;
+    padding: 1em;
+    width: 60%;
+    height: 30%;
+    min-width: fit-content;
+    border-radius: 0.6em;
+    position: relative;
+    left: 20%;
+}
+.but{
+    margin-top: 0.2em;
+    padding: 0.1em;
+    margin-top: 2em;
+    /* display: block;  needed for <a> */
+}
+.two{
+    margin-top: 10em;
+}
+
+
+/* STYLES FOR INDEX6.HTML */
+.body-cont{
+    border: 5px solid green;
+    border-radius: 0.6em;
+    margin: 2em;
+    /* width: fit-content; */
+}
+#sports{
+    border: 2px solid white;
+    border-radius: 0.6em;
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    left: 25%;
+    background-color: green;
+}
+.games{
+    list-style-type: none;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid white;
+    font-weight: 600;
+}
